@@ -1,0 +1,157 @@
+Fine-tuning mBERT with options:
+Namespace(D_bn=True, D_layers=2, P_bn=True, P_layers=2, alpha=0.8, att_heads='4', attn_dropout=0.2, batch_size=32, batch_size_target=100, beta_l=0.7, beta_t=0.3, concat_domain=False, concat_dropout=0.2, concat_stance=True, data_dir='./dataset/', device='cuda', dropout=0.2, emb_size=768, gnn_dims='192', hidden_size=768, leaky_alpha=0.2, learning_rate=2e-05, local_rank=0, max_epoch=15, max_seq_len=1000, measurement='cosine similarity', model_save_file='./save/1112_cm_pruned_situation2_GAT1_4', num_target=0, num_train_lines=0, random_seed=4, sim_threshold=0.9, temperature=0.3, tk=10, tokenized_max_len=120, weight_threshold=0.3)
+Done loading datasets.
+Done constructing DataLoader. 
+Done loading models. 
+0th target dataset begin encode
+1th target dataset begin encode
+2th target dataset begin encode
+3th target dataset begin encode
+4th target dataset begin encode
+5th target dataset begin encode
+6th target dataset begin encode
+7th target dataset begin encode
+8th target dataset begin encode
+9th target dataset begin encode
+10th target dataset begin encode
+11th target dataset begin encode
+12th target dataset begin encode
+13th target dataset begin encode
+14th target dataset begin encode
+15th target dataset begin encode
+16th target dataset begin encode
+17th target dataset begin encode
+18th target dataset begin encode
+19th target dataset begin encode
+20th target dataset begin encode
+21th target dataset begin encode
+22th target dataset begin encode
+23th target dataset begin encode
+24th target dataset begin encode
+25th target dataset begin encode
+26th target dataset begin encode
+27th target dataset begin encode
+28th target dataset begin encode
+29th target dataset begin encode
+30th target dataset begin encode
+Fine-tuning mBERT with options:
+Namespace(D_bn=True, D_layers=2, P_bn=True, P_layers=2, alpha=0.8, att_heads='4', attn_dropout=0.2, batch_size=32, batch_size_target=100, beta_l=0.7, beta_t=0.3, concat_domain=False, concat_dropout=0.2, concat_stance=True, data_dir='./dataset/', device='cuda', dropout=0.2, emb_size=768, gnn_dims='192', hidden_size=768, leaky_alpha=0.2, learning_rate=2e-05, local_rank=0, max_epoch=15, max_seq_len=1000, measurement='cosine similarity', model_save_file='./save/1112_cm_pruned_situation2_GAT1_4', num_target=0, num_train_lines=0, random_seed=4, sim_threshold=0.9, temperature=0.3, tk=10, tokenized_max_len=120, weight_threshold=0.3)
+Done loading datasets.
+Done constructing DataLoader. 
+Done loading models. 
+0th target dataset begin encode
+1th target dataset begin encode
+2th target dataset begin encode
+3th target dataset begin encode
+4th target dataset begin encode
+5th target dataset begin encode
+6th target dataset begin encode
+7th target dataset begin encode
+8th target dataset begin encode
+9th target dataset begin encode
+10th target dataset begin encode
+11th target dataset begin encode
+12th target dataset begin encode
+13th target dataset begin encode
+14th target dataset begin encode
+15th target dataset begin encode
+16th target dataset begin encode
+17th target dataset begin encode
+18th target dataset begin encode
+19th target dataset begin encode
+20th target dataset begin encode
+21th target dataset begin encode
+22th target dataset begin encode
+23th target dataset begin encode
+24th target dataset begin encode
+25th target dataset begin encode
+26th target dataset begin encode
+27th target dataset begin encode
+28th target dataset begin encode
+29th target dataset begin encode
+30th target dataset begin encode
+Ending epoch 1
+Training Accuracy: 57.76916802610114%
+Evaluating on valid set:
+favor f1: 74.48275862068967
+against f1: 65.42056074766354
+Accuracy on 126 samples: 70.63492063492063%
+f1 on 126 samples: 69.9516596841766
+Best f1 has been updated as 0.699516596841766
+Evaluating on test set:
+favor f1: 74.07407407407408
+against f1: 62.16216216216216
+Accuracy on 182 samples: 69.23076923076923%
+f1 on 182 samples: 68.11811811811812
+Fine-tuning mBERT with options:
+Namespace(D_bn=True, D_layers=2, P_bn=True, P_layers=2, alpha=0.8, att_heads='4', attn_dropout=0.2, batch_size=32, batch_size_target=100, beta_l=0.7, beta_t=0.3, concat_domain=False, concat_dropout=0.2, concat_stance=True, data_dir='./dataset/', device='cuda', dropout=0.2, emb_size=768, gnn_dims='192', hidden_size=768, leaky_alpha=0.2, learning_rate=2e-05, local_rank=0, max_epoch=15, max_seq_len=1000, measurement='cosine similarity', model_save_file='./save/1112_cm_pruned_situation2_GAT1_4', num_target=0, num_train_lines=0, random_seed=4, sim_threshold=0.9, temperature=0.3, tk=10, tokenized_max_len=120, weight_threshold=0.3)
+Done loading datasets.
+Done constructing DataLoader. 
+Done loading models. 
+0th target dataset begin encode
+1th target dataset begin encode
+2th target dataset begin encode
+3th target dataset begin encode
+4th target dataset begin encode
+5th target dataset begin encode
+6th target dataset begin encode
+7th target dataset begin encode
+8th target dataset begin encode
+9th target dataset begin encode
+10th target dataset begin encode
+11th target dataset begin encode
+12th target dataset begin encode
+13th target dataset begin encode
+14th target dataset begin encode
+15th target dataset begin encode
+16th target dataset begin encode
+17th target dataset begin encode
+18th target dataset begin encode
+19th target dataset begin encode
+20th target dataset begin encode
+21th target dataset begin encode
+22th target dataset begin encode
+23th target dataset begin encode
+24th target dataset begin encode
+25th target dataset begin encode
+26th target dataset begin encode
+27th target dataset begin encode
+28th target dataset begin encode
+29th target dataset begin encode
+30th target dataset begin encode
+Fine-tuning mBERT with options:
+Namespace(D_bn=True, D_layers=2, P_bn=True, P_layers=2, alpha=0.8, att_heads='4', attn_dropout=0.2, batch_size=32, batch_size_target=100, beta_l=0.7, beta_t=0.3, concat_domain=False, concat_dropout=0.2, concat_stance=True, data_dir='./dataset/', device='cuda', dropout=0.2, emb_size=768, gnn_dims='192', hidden_size=768, leaky_alpha=0.2, learning_rate=2e-05, local_rank=0, max_epoch=15, max_seq_len=1000, measurement='cosine similarity', model_save_file='./save/1112_cm_pruned_situation2_GAT1_4', num_target=0, num_train_lines=0, random_seed=4, sim_threshold=0.9, temperature=0.3, tk=10, tokenized_max_len=120, weight_threshold=0.3)
+Done loading datasets.
+Done constructing DataLoader. 
+Done loading models. 
+0th target dataset begin encode
+1th target dataset begin encode
+2th target dataset begin encode
+3th target dataset begin encode
+4th target dataset begin encode
+5th target dataset begin encode
+6th target dataset begin encode
+7th target dataset begin encode
+8th target dataset begin encode
+9th target dataset begin encode
+10th target dataset begin encode
+11th target dataset begin encode
+12th target dataset begin encode
+13th target dataset begin encode
+14th target dataset begin encode
+15th target dataset begin encode
+16th target dataset begin encode
+17th target dataset begin encode
+18th target dataset begin encode
+19th target dataset begin encode
+20th target dataset begin encode
+21th target dataset begin encode
+22th target dataset begin encode
+23th target dataset begin encode
+24th target dataset begin encode
+25th target dataset begin encode
+26th target dataset begin encode
+27th target dataset begin encode
+28th target dataset begin encode
+29th target dataset begin encode
+30th target dataset begin encode

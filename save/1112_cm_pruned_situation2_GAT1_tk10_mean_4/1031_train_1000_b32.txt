@@ -1,0 +1,224 @@
+Fine-tuning mBERT with options:
+Namespace(D_bn=True, D_layers=2, P_bn=True, P_layers=2, alpha=0.8, att_heads='4', attn_dropout=0.2, batch_size=32, batch_size_target=100, beta_l=0.7, beta_t=0.3, concat_domain=False, concat_dropout=0.2, concat_stance=True, data_dir='./dataset/', device='cuda', dropout=0.2, emb_size=768, gnn_dims='192', hidden_size=768, leaky_alpha=0.2, learning_rate=2e-05, local_rank=0, max_epoch=15, max_seq_len=1000, measurement='cosine similarity', model_save_file='./save/1112_cm_pruned_situation2_GAT1_tk10_mean_4', num_target=0, num_train_lines=0, random_seed=4, sim_threshold=0.5, temperature=0.3, tk=10, tokenized_max_len=120, weight_threshold=0.3)
+Done loading datasets.
+Done constructing DataLoader. 
+Done loading models. 
+0th target dataset begin encode
+1th target dataset begin encode
+2th target dataset begin encode
+3th target dataset begin encode
+4th target dataset begin encode
+5th target dataset begin encode
+6th target dataset begin encode
+7th target dataset begin encode
+8th target dataset begin encode
+9th target dataset begin encode
+10th target dataset begin encode
+11th target dataset begin encode
+12th target dataset begin encode
+13th target dataset begin encode
+14th target dataset begin encode
+15th target dataset begin encode
+16th target dataset begin encode
+17th target dataset begin encode
+18th target dataset begin encode
+19th target dataset begin encode
+20th target dataset begin encode
+21th target dataset begin encode
+22th target dataset begin encode
+23th target dataset begin encode
+24th target dataset begin encode
+25th target dataset begin encode
+26th target dataset begin encode
+27th target dataset begin encode
+28th target dataset begin encode
+29th target dataset begin encode
+30th target dataset begin encode
+Ending epoch 1
+Training Accuracy: 54.91435562805873%
+Evaluating on valid set:
+favor f1: 67.87878787878788
+against f1: 39.08045977011494
+Accuracy on 126 samples: 57.936507936507944%
+f1 on 126 samples: 53.47962382445141
+Best f1 has been updated as 0.534796238244514
+Evaluating on test set:
+favor f1: 67.5
+against f1: 37.096774193548384
+Accuracy on 182 samples: 57.14285714285714%
+f1 on 182 samples: 52.29838709677419
+Ending epoch 2
+Training Accuracy: 68.61745513866232%
+Evaluating on valid set:
+favor f1: 57.446808510638306
+against f1: 74.68354430379748
+Accuracy on 126 samples: 68.25396825396825%
+f1 on 126 samples: 66.06517640721789
+Best f1 has been updated as 0.660651764072179
+Evaluating on test set:
+favor f1: 61.31386861313869
+against f1: 76.65198237885463
+Accuracy on 182 samples: 70.87912087912088%
+f1 on 182 samples: 68.98292549599665
+Ending epoch 3
+Training Accuracy: 77.50815660685154%
+Evaluating on valid set:
+favor f1: 77.86259541984732
+against f1: 76.03305785123968
+Accuracy on 126 samples: 76.98412698412699%
+f1 on 126 samples: 76.94782663554349
+Best f1 has been updated as 0.7694782663554349
+Evaluating on test set:
+favor f1: 72.16494845360825
+against f1: 68.23529411764704
+Accuracy on 182 samples: 70.32967032967034%
+f1 on 182 samples: 70.20012128562765
+Ending epoch 4
+Training Accuracy: 86.74551386623165%
+Evaluating on valid set:
+favor f1: 57.77777777777777
+against f1: 76.5432098765432
+Accuracy on 126 samples: 69.84126984126983%
+f1 on 126 samples: 67.1604938271605
+Evaluating on test set:
+favor f1: 57.36434108527132
+against f1: 76.59574468085107
+Accuracy on 182 samples: 69.78021978021978%
+f1 on 182 samples: 66.98004288306119
+Ending epoch 5
+Training Accuracy: 92.5978792822186%
+Evaluating on valid set:
+favor f1: 75.86206896551725
+against f1: 79.41176470588236
+Accuracy on 126 samples: 77.77777777777779%
+f1 on 126 samples: 77.6369168356998
+Best f1 has been updated as 0.776369168356998
+Evaluating on test set:
+favor f1: 68.67469879518073
+against f1: 73.73737373737373
+Accuracy on 182 samples: 71.42857142857143%
+f1 on 182 samples: 71.20603626627724
+Ending epoch 6
+Training Accuracy: 95.63621533442088%
+Evaluating on valid set:
+favor f1: 76.8
+against f1: 77.16535433070867
+Accuracy on 126 samples: 76.98412698412699%
+f1 on 126 samples: 76.98267716535435
+Evaluating on test set:
+favor f1: 72.1311475409836
+against f1: 71.82320441988949
+Accuracy on 182 samples: 71.97802197802197%
+f1 on 182 samples: 71.97717598043656
+Ending epoch 7
+Training Accuracy: 96.96166394779772%
+Evaluating on valid set:
+favor f1: 76.03305785123968
+against f1: 77.86259541984732
+Accuracy on 126 samples: 76.98412698412699%
+f1 on 126 samples: 76.9478266355435
+Evaluating on test set:
+favor f1: 70.73170731707317
+against f1: 76.00000000000001
+Accuracy on 182 samples: 73.62637362637363%
+f1 on 182 samples: 73.36585365853658
+Ending epoch 8
+Training Accuracy: 97.92006525285481%
+Evaluating on valid set:
+favor f1: 77.77777777777779
+against f1: 77.77777777777779
+Accuracy on 126 samples: 77.77777777777779%
+f1 on 126 samples: 77.77777777777779
+Best f1 has been updated as 0.7777777777777778
+Evaluating on test set:
+favor f1: 69.18918918918918
+against f1: 68.15642458100558
+Accuracy on 182 samples: 68.68131868131869%
+f1 on 182 samples: 68.67280688509739
+Ending epoch 9
+Training Accuracy: 98.55220228384992%
+Evaluating on valid set:
+favor f1: 73.04347826086958
+against f1: 77.37226277372262
+Accuracy on 126 samples: 75.39682539682539%
+f1 on 126 samples: 75.2078705172961
+Evaluating on test set:
+favor f1: 71.0843373493976
+against f1: 75.75757575757575
+Accuracy on 182 samples: 73.62637362637363%
+f1 on 182 samples: 73.42095655348668
+Ending epoch 10
+Training Accuracy: 98.67455138662316%
+Evaluating on valid set:
+favor f1: 72.22222222222221
+against f1: 79.16666666666667
+Accuracy on 126 samples: 76.19047619047619%
+f1 on 126 samples: 75.69444444444444
+Evaluating on test set:
+favor f1: 66.23376623376623
+against f1: 75.23809523809524
+Accuracy on 182 samples: 71.42857142857143%
+f1 on 182 samples: 70.73593073593074
+Ending epoch 11
+Training Accuracy: 98.59298531810767%
+Evaluating on valid set:
+favor f1: 76.8
+against f1: 77.16535433070867
+Accuracy on 126 samples: 76.98412698412699%
+f1 on 126 samples: 76.98267716535435
+Evaluating on test set:
+favor f1: 67.42857142857143
+against f1: 69.84126984126985
+Accuracy on 182 samples: 68.68131868131869%
+f1 on 182 samples: 68.63492063492063
+Ending epoch 12
+Training Accuracy: 98.85807504078304%
+Evaluating on valid set:
+favor f1: 75.67567567567568
+against f1: 80.85106382978724
+Accuracy on 126 samples: 78.57142857142857%
+f1 on 126 samples: 78.26336975273146
+Best f1 has been updated as 0.7826336975273146
+Evaluating on test set:
+favor f1: 68.32298136645963
+against f1: 74.8768472906404
+Accuracy on 182 samples: 71.97802197802197%
+f1 on 182 samples: 71.59991432855001
+Ending epoch 13
+Training Accuracy: 99.26590538336052%
+Evaluating on valid set:
+favor f1: 72.72727272727273
+against f1: 78.87323943661971
+Accuracy on 126 samples: 76.19047619047619%
+f1 on 126 samples: 75.80025608194623
+Evaluating on test set:
+favor f1: 67.08860759493672
+against f1: 74.75728155339807
+Accuracy on 182 samples: 71.42857142857143%
+f1 on 182 samples: 70.92294457416739
+Ending epoch 14
+Training Accuracy: 99.0415986949429%
+Evaluating on valid set:
+favor f1: 76.56250000000001
+against f1: 75.80645161290323
+Accuracy on 126 samples: 76.19047619047619%
+f1 on 126 samples: 76.18447580645163
+Evaluating on test set:
+favor f1: 67.75956284153006
+against f1: 67.40331491712706
+Accuracy on 182 samples: 67.58241758241759%
+f1 on 182 samples: 67.58143887932856
+Ending epoch 15
+Training Accuracy: 99.38825448613377%
+Evaluating on valid set:
+favor f1: 76.52173913043477
+against f1: 80.2919708029197
+Accuracy on 126 samples: 78.57142857142857%
+f1 on 126 samples: 78.40685496667724
+Best f1 has been updated as 0.7840685496667724
+Evaluating on test set:
+favor f1: 67.45562130177514
+against f1: 71.79487179487181
+Accuracy on 182 samples: 69.78021978021978%
+f1 on 182 samples: 69.62524654832347
+Best valid f1 is 0.7840685496667724
